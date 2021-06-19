@@ -1,33 +1,24 @@
 # Project Title
 
-Simple typewriter vanilla javascript
+Simple typewriter animation with vanilla javascript
 
 ## Description
 
-Render a string into element with typewriter effect
+Render a string into element with typewriter effect animation
 
-## Getting Started
-
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* Insert .js file into your html file
-* call the function typeString(element, string, duration, delay)
-
-element -> querySelector // #id, .class...
-string -> "some string to print"
-duration -> duration in miliseconds
-delay -> delay of the animation in miliseconds
+### Usage
 
 ```
 <script src="typestring.js"></script>
 ```
+
+```
+typeString("#f1", "Simple typewriter text to render!", 50, 0);
+```
+
+Calling the function typeString(element, string, duration, delay)
+
+* element -> querySelector // #id, .class...
+* string -> "some string to print"
+* duration -> duration in miliseconds
+* delay -> delay of the animation in miliseconds

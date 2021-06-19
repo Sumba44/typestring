@@ -14,9 +14,11 @@ Render a string into element with typewriter effect animation
 
 ```
 typeString("#f1", "Simple typewriter text to render!", 50, 0);
+```
 
+```
 
-// Calling the function typeString(element, string, duration, delay)
+// typeString(element, string, duration, delay)
 
 // element -> querySelector // #id, .class...
 // string -> "some string to print"

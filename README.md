@@ -1,0 +1,2 @@
+# typestring
+JavaScript typewriter
